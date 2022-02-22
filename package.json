@@ -6,7 +6,6 @@
   "bin": "index.js",
   "pkg": {
     "assets": [
-      "layers/**/*",
       "node_modules/**/*",
       "src/**/*"
     ]
