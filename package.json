@@ -1,7 +1,7 @@
 {
-  "name": "hashlips_art_engine",
-  "version": "1.1.1",
-  "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
+  "name": "audio_combiner",
+  "version": "1.0.0",
+  "description": "Audio combiner generator",
   "main": "index.js",
   "bin": "index.js",
   "pkg": {
@@ -15,12 +15,9 @@
     "build": "node index.js",
     "generate": "node index.js",
     "rarity": "node utils/rarity.js",
-    "preview": "node utils/preview.js",
-    "update_info": "node utils/update_info.js",
-    "generate_metadata": "node utils/generate_metadata.js"
+    "update_info": "node utils/update_info.js"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
-  "license": "MIT",
+  "author": "Dapps",
   "dependencies": {
     "canvas": "^2.8.0",
     "sha1": "^1.1.1"
